@@ -1,0 +1,89 @@
+header{
+    display: flex;
+    
+
+}
+a{
+    padding-left: 40px;
+    text-decoration: none;
+}
+#videovsc{
+    display: block; margin: 0 auto;
+    width: 600px;
+}
+
+#atributos{
+    display: flex;
+}
+
+.videoatributos{
+    display:  flex;
+    
+    
+}
+    
+
+#HTML h1{
+    text-align: center;
+}
+
+
+#HTML h1{
+    color: #E34F26;
+
+}
+
+
+#HTML h2{
+    color: #E34F26;
+}
+
+#HTML img{
+    display: flex;
+}
+
+#reglasdehtml{
+    text-align: left;
+    display: flex;
+}
+
+
+#etiquetas{
+    border: solid; height: auto; width: auto;
+    display: flex;
+}
+
+#atributo{
+     border: solid; height: auto; width: auto;
+    display: flex;
+
+}
+
+#css{
+       border: solid; height: auto; width: auto;
+    display: flex;
+
+
+}
+
+#Javascript{
+       border: solid; height: auto; width: auto;
+    display: flex;
+
+}
+#etiqueta h2{
+    color: #E34F26;
+    
+}
+
+#video{
+    position: relative;
+    left: 160px;
+}
+
+#listaatributos h2{
+    color: #E34F26;
+}
+#csshtml h2{
+    color: #663399;
+}

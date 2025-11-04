@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <header>
+        <a href="/web/index.html"><img src="/web/img/HTML LOgo.png" alt="Logo html" height="65"></a>
+        <a href="/web/index.html"><h2>Inicio</h2></a>
+        <a href="/web/html/Etiquetas.html"><h2>Etiquetas</h2></a>
+        <a href="/web/html/Atributos.html"><h2>Atributos</h2></a>
+        <a href="/web/html/Css.html"><h2>CSS</h2></a>
+        <a href="/web/html/Javascript.html"><h2>Javascript</h2></a>
+        <a href="/web/html/Contacto.html"><h2>Contacto</h2></a>
+        <a href="/web/html/Acercade.html"><h2>Acerca de</h2></a>
+    
+    </header>
+    <hr>
+
+    <section id="HTML">
+        <img src="/web/img/HTML LOgo.png" style="display: block; margin: 0 auto;">
+        <h1>HTML</h1>
+        <p>HTML son las siglas de Lenguaje de Marcado de Hipertexto <strong>(HyperText Markup Language)</strong> y es el código estándar que se utiliza para crear y estructurar el contenido de las páginas web. Se compone de etiquetas que le dicen al navegador cómo mostrar elementos como texto, imágenes, videos, enlaces y más, creando así el esqueleto de un sitio web. HTML no es un lenguaje de programación, sino un lenguaje de marcado que define la estructura y disposición del contenido. 
+        </p>
+        
+        
+        <h2>Historia</h2>
+
+        <p>La primera versión de HTML fue escrita por Tim Berners-Lee en 1993. Desde entonces, han existido muchas versiones diferentes. La versión más utilizada durante la década del 2000 fue HTML 4.01 , que se convirtió en estándar oficial en diciembre de 1999.
+        Otra versión, XHTML , fue una reescritura de HTML como lenguaje XML. XML es un lenguaje de marcado estándar que se utiliza para crear otros lenguajes de marcado. Actualmente se utilizan cientos de lenguajes XML, incluidos GML (Geography Markup Language), MathML, MusicML y RSS (Really Simple Syndication). Dado que cada uno de estos lenguajes se escribió en un lenguaje común (XML), su contenido se puede compartir fácilmente entre aplicaciones. Esto hace que XML sea potencialmente muy potente, y no sorprende que el W3C creara una versión XML de HTML (también llamada XHTML). XHTML se convirtió en un estándar oficial en 2000 y se actualizó en 2002. XHTML es muy similar a HTML, pero tiene reglas más estrictas. Las reglas estrictas son necesarias para todos los lenguajes XML, ya que sin ellas, la interoperabilidad entre aplicaciones sería imposible. Aprenderás más sobre las diferencias entre HTML y XHTML en la Unidad 2 .
+        La mayoría de las páginas web actuales se crearon con HTML 4.01 o XHTML 1.0. Sin embargo, en los últimos años, el W3C (en colaboración con WHATWG ) ha estado trabajando en una nueva versión de HTML: HTML5 . Actualmente (2011), HTML5 es aún un borrador de especificación y no un estándar oficial. No obstante, ya cuenta con un amplio soporte en navegadores y otros dispositivos con acceso a internet, y representa el futuro de la tecnología.
+        </p>
+
+        <h2>Editores de HTML</h2>
+
+        <p>Los editores de HTML son herramientas de software para crear y editar código HTML, y se dividen principalmente en dos tipos: editores de texto que permiten escribir código directamente y editores WYSIWYG ("lo que ves es lo que obtienes") que ofrecen una interfaz visual para el diseño. Ejemplos populares de editores de texto incluyen Visual Studio Code y Sublime Text, mientras que Adobe Dreamweaver es un ejemplo de editor WYSIWYG. 
+        El mas famoso es Visual Studio Code, a continuacion un video demostrativo de como descargarlo:
+        </p>
+
+        <iframe id="videovsc"src="https://www.youtube.com/embed/6pD7_rcFrj8?si=gstuYPqBcCb0wVNS"></iframe>
+
+        <h2>Las etiquetas en HTML</h2>
+
+        <p>Las etiquetas HTML son los bloques básicos con los que se construye una página web.
+        Cada etiqueta le dice al navegador qué tipo de contenido está mostrando (texto, imagen, video, enlace, etc.).</p>
+
+        <p><strong>A continuacion, una tabla con las etiquetas mas usadas en HTML...</strong></p>
+        <br>
+
+        <img style="width: 700px; display: block ; display: block; margin: 0px auto;""  
+        src="/web/img/Screenshot 2025-10-30 141638.png" alt="Tabla periodica de las etiquetas">
+
+        <h2>Los atributos HTML</h2>
+
+        <p><strong>Los atributos HTML </strong> son palabras especiales dentro de la etiqueta de apertura de un elemento que proporcionan información adicional,
+        modifican su comportamiento o añaden funcionalidad. Se componen de un nombre y un valor, con la estructura nombre="valor", y siempre se colocan después de la etiqueta de apertura. </p>
+        
+        <div id="atributos">
+            <iframe id="videoatributos" width="700px" height="315" src="https://www.youtube.com/embed/qVXHIBpv0TE?si=rxfFdSSB8gPfEie5" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+            gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+            <details open>
+                <summary><h3>Estructura</h3></summary>
+                <ul>
+                    
+                    <li>Nombre: Indica el tipo de información adicional (ej. href, src, id).</li>
+                    <li>Valor: Es la información específica (ej. la URL en href="https://www.ejemplo.com").</li>
+                    <li>Colocación: Siempre dentro de la etiqueta de apertura, después de su nombre.</li>
+                    <li>Ejemplo: En la etiqueta <a href="https//www.ejemplo.com"></a>, href es el nombre y "https://www.ejemplo.com" es el valor.</li> 
+                </ul>
+            </details>
+            <br>
+            <details open>
+                <summary><h3>Tipos</h3></summary>
+                <ul>
+                    <li>Atributos obligatorios: Necesarios para que un elemento funcione correctamente (ej. alt en la etiqueta <img> para texto alternativo).</li>
+                    <li>Atributos opcionales: Modifican el comportamiento predeterminado de un elemento (ej. el atributo class para aplicar estilos).</li>
+                    <li>Atributos estándar: Compatibles con muchos tipos de elementos (ej. id o class).</li>
+                    <li>Atributos de eventos: Permiten asociar scripts que se ejecutan cuando ocurre un evento específico, como hacer clic (onclick) o pasar el ratón por encima (onmouseover).</li>
+                    <li>Atributos globales: Se pueden utilizar en la mayoría de los elementos, como spellcheck (revisión ortográfica) o dir (dirección del texto). </li>
+                </ul>
+            </details>
+        </div>
+
+        <h2>Reglas fundamentales de HTML</h2>
+        <div id="reglasdehtml">
+            <h3>Estructura del documento</h3>
+            <ol>
+                <li> DOCTYPE html>: Declara el tipo de documento y debe ser la primera línea.</li>
+                <li><html>: Envuelve todo el contenido de la página.</li>
+                <li><head>: Contiene metadatos y enlaces a hojas de estilo o scripts. La información aquí no es visible directamente en la página.</li>
+                <li><body>: Contiene el contenido visible de la página, como texto, imágenes y enlaces. </li>
+            </ol>
+            <h3>Uso de etiquetas y atributos</h3>
+            <ol>
+                <li><strong>Etiquetas:</strong> Se usan para marcar y estructurar el contenido. La mayoría requieren una etiqueta de apertura (ej., h1>) y una de cierre (ej., </h1>).</li>
+                <li><strong>Etiquetas de cierre:</strong> Se diferencian de las de apertura por una barra diagonal (/).</li>
+                <li><strong>>Anidación: </strong> etiquetas internas deben cerrarse antes que las etiquetas externas. Por ejemplo, <b><i>texto</i></b> es correcto, pero <b><i>texto</b></i> no lo es</li>
+                <li><strong>>Atributos: </strong> información adicional a las etiquetas. Siempre se incluyen en la etiqueta de apertura y se recomienda usar comillas dobles para los valores. </li>
+            </ol>
+            <h3>Consistencia y buenas practicas</h3>
+            <ol>
+                <li><strong>Minusculas:</strong>Aunque HTML no distingue mayúsculas y minúsculas, es una práctica estándar y recomendada usar etiquetas y atributos en minúsculas para mayor consistencia.</li>
+                <li><strong>Espacios en blanco</strong> Los espacios, tabuladores y saltos de línea en el código son ignorados por el navegador en la sección body></body></li>
+                <li><strong>Sangria</strong> Usar sangrías para indentar el código facilita la lectura.</li>
+                <li><strong>Comillas</strong>Se recomienda usar comillas dobles (") para los valores de los atributos, incluso si el navegador lo permite sin ellas. </li>
+            </ol>
+
+        </div>
+        <div id="etiquetas">
+            <h3>Etiquetas:</h3>
+            <p>Las etiquetas HTML son fragmentos de código que definen la estructura y el contenido de una página web, indicando al navegador 
+            cómo mostrar elementos como párrafos, encabezados, imágenes y enlaces.</p>
+            <img src="/web/img/Etiquetasindex.png" alt="Etiquetas">
+
+        </div>
+
+        <div id="atributo">
+            <h3>Atributos</h3>
+            <p>Los atributos HTML son palabras especiales dentro de la etiqueta de apertura que proporcionan información 
+            adicional sobre un elemento, modifican su comportamiento o le dan funcionalidad.</p>
+            <img src="/web/img/atributosindex.png" alt="Atributos">
+        </div>
+
+        <div id="css">
+            <h3>CSS</h3>
+            <p>CSS significa Hojas de Estilo en Cascada (Cascading Style Sheets) y es un lenguaje de estilo utilizado
+                 para dar formato y estilo a documentos web escritos en lenguajes como HTML. Separa 
+                 el contenido de la presentación visual, permitiendo controlar el diseño, los colores, las fuentes, el espaciado y 
+                la disposición para que el contenido sea atractivo y adaptable a diferentes dispositivos. </p>
+            <img src="/web/img/cssindex.jpg" alt="CSS">
+        </div>
+
+        <div id="Javascript">
+            <h3>JAvaScript</h3>
+            <p>JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa (por ejemplo programación funcional). 
+            Lee más en acerca de JavaScript.</p>
+            <img src="/web/img/javascriptindex.jpg" alt="">
+        </div>
+            
+
+        </section>
+
+        
+    
+</body>
+</html>

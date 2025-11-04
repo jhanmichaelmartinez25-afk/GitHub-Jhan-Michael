@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="/web/Css/style.css">
+</head>
+<body>
+    <header>
+        <a href="/web/index.html"><img src="/web/img/HTML LOgo.png" alt="Logo html" height="65"></a>
+        <a href="/web/index.html"><h2>Inicio</h2></a>
+        <a href="/web/html/Etiquetas.html"><h2>Etiquetas</h2></a>
+        <a href="/web/html/Atributos.html"><h2>Atributos</h2></a>
+        <a href="/web/html/Css.html"><h2>CSS</h2></a>
+        <a href="/web/html/Javascript.html"><h2>Javascript</h2></a>
+        <a href="/web/html/Contacto.html"><h2>Contacto</h2></a>
+        <a href="/web/html/Acercade.html"><h2>Acerca de</h2></a>
+    
+    </header>
+    <hr>
+
+    <section id="etiqueta">
+        <img style="display: block; margin: 0 auto;"" src="/web/img/Etiquetas.png" alt="Etiquetas">
+
+        <h2>Etiquetas de documento</h2>
+        <div style="display: flex;">
+            <strong>Head:</strong><p>Las etiquetas <head> en HTML se usan para contener metadatos, información que no es visible directamente 
+            en la página pero que es crucial para el navegador y los motores de búsqueda.</p>
+
+            <strong>Html</strong><p>La etiqueta principal y raíz en HTML es <html>, la cual envuelve todo el contenido de una página web, indicando al navegador que se trata de código HTML. Dentro de <html> se encuentran otras etiquetas fundamentales como <head> (cabecera) y <body> (cuerpo),
+            que organizan los elementos de la página. </p>
+
+            <strong>Body</strong><p>La etiqueta <body> en HTML define el contenido principal y visible de una página web, como texto, imágenes, enlaces, etc.. Se coloca dentro de la etiqueta <html> y 
+            después de la etiqueta <head>, y solo puede haber una etiqueta <body> por documento HTML. </p>
+        
+            <iframe width="560" height="250" src="https://www.youtube.com/embed/AP7SYjFKqLg?si=I_87-kv9mGDtkLrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h2>Etiquetas de Meta Datos</h2>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+            <p><strong>Meta</strong> La etiqueta meta en HTML se usa para incluir metadatos, o información sobre la página web, dentro de la sección head. Estas etiquetas son invisibles para el usuario pero vitales para navegadores y motores de búsqueda, ya que proporcionan datos como la codificación de caracteres, la descripción de la página, 
+            el autor o instrucciones para los rastreadores de búsqueda. </p>
+
+            <p><strong>Style</strong>La etiqueta "style" en "html" se usa para incorporar código CSS Cascading "style" Sheets directamente dentro de un documento "html", permitiendo definir el estilo de los elementos de la página. Generalmente se coloca dentro de la sección "head"y se utiliza para aplicar estilos como colores, 
+            fuentes y tamaños, siendo útil para estilos pequeños o prototipos.</p>
+            
+            <p><strong>Title</strong>La etiqueta title en HTML define el título de una página web, que aparece en la pestaña del navegador y en los resultados de búsqueda. Se coloca dentro de la sección head del documento, es única para cada página, y su contenido debe ser breve y descriptivo para indicar el propósito del contenido. </p>
+
+            <p><strong>Base</strong>La etiqueta base se usa en HTML para especificar una URL base o de destino para todas las URLs relativas en un documento, permitiendo simplificar las rutas de enlaces, imágenes y scripts. Debe estar ubicada dentro de la sección head y se usa principalmente para definir la URL base de un proyecto o para establecer un destino predeterminado para los enlaces. </p>
+
+            <p><strong>Link</strong>La etiqueta de enlace en HTML se usa para crear hipervínculos. La etiqueta <a> se utiliza para crear enlaces a otras páginas web o recursos, con el atributo href indicando la URL de destino. La etiqueta <link> se usa en el encabezado (head) para vincular recursos externos como hojas de estilo CSS o iconos, utilizando los atributos href y rel. </p>
+            <img src="/web/img/etiquetas de meta datos.png"   alt="Etiquetas de meta datos">
+        </div>
+       
+
+        <h2>Etiquetas de Agrupacion</h2>
+        <div style="display: grid;grid-template-columns: repeat(3, 1fr);gap: 20px;">
+            <p><strong>p: </strong>La etiqueta p en HTML se utiliza para definir un párrafo de texto. Al colocar contenido entre las etiquetas p y /p, le indica al navegador que debe mostrar ese texto como un párrafo separado, generalmente con un espacio en blanco antes y después. Es fundamental para organizar el texto y mejorar la accesibilidad y la estructura del contenido de una página web. </p>
+
+            <p><strong>hr: </strong>La etiqueta hr en HTML crea una línea horizontal para separar temáticamente secciones de contenido en una página web. Significa "horizontal rule" (regla horizontal) y se utiliza para mejorar la organización y legibilidad del contenido, separando visualmente bloques lógicos o temáticos. Es una etiqueta de auto-cierre, por lo que no necesita una etiqueta de cierre /hr. </p>
+
+            <p><strong>ul: </strong>La etiqueta ul en HTML se utiliza para crear listas no ordenadas, es decir, listas que no tienen un orden específico y que suelen mostrarse con viñetas (como círculos, cuadrados, etc.). Se usa en conjunto con la etiqueta li para cada elemento individual dentro de la lista.</p>
+
+            <p><strong>div: </strong>La etiqueta div en HTML es un contenedor genérico que se utiliza para agrupar otros elementos HTML y crear divisiones lógicas en una página web. No tiene un significado semántico propio, pero es útil para organizar el contenido en bloques que luego pueden ser estilizados o manipulados con CSS para crear secciones como encabezados, pies de página, columnas o diseños complejos. </p>
+
+            <p><strong>figure: </strong>La etiqueta figure en HTML se usa para agrupar contenido independiente como imágenes, diagramas o videos, junto con su pie de foto (proporcionado por la etiqueta figcaption>). Esta etiqueta mejora la semántica del sitio web, ya que indica que el contenido es autónomo pero relacionado con el flujo principal del documento. </p>
+
+            <p><strong>figcaption: </strong>La etiqueta figcaption en HTML se usa para proporcionar un título o leyenda a un elemento figure, como una imagen, un gráfico o un vídeo. Debe colocarse dentro de la etiqueta figure y puede aparecer como el primer o último hijo de esta. Su uso es especialmente útil para mejorar la accesibilidad y la estructura del contenido, ya que proporciona una descripción textual que puede ser leída por lectores de pantalla. </p>
+
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/yQwTGnNMncg?si=msACC03MeNbEyd9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h2>Etiquetas textuales</h2>
+        <div style="display: grid;grid-template-columns: repeat(3, 1fr);">
+            <p><strong>a: </strong>La etiqueta a en HTML se utiliza para crear hipervínculos, permitiendo a los usuarios navegar a otras páginas web, archivos, o secciones dentro de la misma página. Se usa en conjunto con el atributo href, que especifica la URL de destino. El texto o imagen entre la etiqueta de apertura (a) y la etiqueta de cierre (/a) es lo que el usuario ve y sobre lo que hace clic. </p>
+
+            <p><strong>Span: </strong>La etiqueta span en HTML es un contenedor en línea genérico que agrupa elementos o texto para aplicar estilos con CSS o manipularlos con JavaScript sin afectar el flujo del contenido. A diferencia de div, que es un elemento de bloque, span se utiliza para partes más pequeñas de texto o elementos dentro de una línea, como una palabra o una frase. </p>
+
+            <p><strong>Sub: </strong>La etiqueta sub en HTML se utiliza para mostrar texto en subíndice, apareciendo ligeramente por debajo de la línea de texto base y a menudo con un tamaño de fuente más pequeño. Se usa comúnmente para elementos como fórmulas químicas (por ejemplo, H <sub>2</sub>O o notaciones matemáticas.).</p>
+
+            <p><strong>Sup: </strong>La etiqueta sup en HTML se usa para mostrar texto en superíndice, el cual aparece más arriba y generalmente más pequeño que el texto normal. Se utiliza para fines semánticos en notaciones matemáticas (ej. 8 <sup>3</sup> ), científicas, ordinales (ej. 11 <sup>mo</sup>) o para referencias de notas al pie.</p>
+
+            <img src="/web/img/textuales.jpg" alt="Etiquetas textuales" style="display: block; margin: 0 auto;">
+
+            <p><strong>Cite: </strong>La etiqueta <cite> en HTML se usa para definir el título de una obra creativa, como un libro, una película o una canción, o el autor de un texto citado. Aunque por defecto suele mostrar el texto en cursiva, su propósito principal es semántico, indicando la fuente de una obra para los motores de búsqueda y otros desarrolladores web. No se debe usar solo para dar formato en cursiva; para eso existen otras etiquetas como em o \i. </p>
+
+        </div>
+
+        <h2>Etiquetas Semanticas</h2>
+        
+        
+        <div style="display: grid; grid-template-columns: repeat(8, 1fr); gap:25px;" >
+
+            <p><strong>Nav: </strong>La etiqueta nav en HTML se utiliza para definir una sección que contiene enlaces de navegación principal dentro de una página web. Su propósito es estructurar la navegación de un sitio, mejorando la accesibilidad para lectores de pantalla y ayudando a los motores de búsqueda a entender la jerarquía del contenido. No todos los enlaces deben ir dentro de una etiqueta nav, solo los que forman parte de las secciones de navegación principales. </p>
+
+            <p><strong>Sectiion: </strong>La etiqueta section en HTML se utiliza para agrupar contenido temático relacionado dentro de un documento, creando divisiones lógicas y semánticas para organizar la página. Su propósito es definir secciones genéricas, como una sección de bienvenida, una galería o un formulario de contacto, y siempre debe incluir un encabezado (como h2) para identificar su propósito. </p>
+
+            <p><strong>Article: </strong>La etiqueta article en HTML se usa para encerrar contenido independiente y autocontenido que tiene sentido por sí mismo y puede ser distribuido o reutilizado por separado. Se utiliza para entradas de blog, artículos de noticias, comentarios, tarjetas de productos y otros bloques de contenido que son autosuficientes. </p>
+
+            <p><strong>Header: </strong>La etiqueta header en HTML define la cabecera de un documento o sección, que generalmente incluye elementos como el logotipo, el título de la página y el menú de navegación. Se utiliza dentro de la etiqueta <body> y puede aparecer en la página principal o anidada en secciones o artículos para sus propios encabezados. </p>
+
+            <p><strong>Main: </strong>La etiqueta main en HTML representa el contenido principal de una página web y debe contener el contenido único del documento, excluyendo elementos como el encabezado, el pie de página o la navegación. Su uso mejora la accesibilidad (para lectores de pantalla) y el SEO, ya que ayuda a los navegadores y a los motores de búsqueda a identificar el contenido relevante y único de una URL. Solo debe haber una etiqueta main por página, y no debe ser descendiente de elementos de navegación o pie de página. </p>
+
+            <p><strong>Footer: </strong>La etiqueta footer en HTML define la sección de pie de página de un documento o de una sección específica de contenido. Es el lugar común para incluir información como avisos de derechos de autor, datos de contacto (usando la etiqueta address), enlaces a políticas de privacidad o términos de uso, y enlaces a redes sociales. </p>
+
+            <div id="video">
+                <iframe width="200" height="500" src="https://www.youtube.com/embed/F5F423yu_JI?si=yJEOqPrOvgVkawMN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: flex"></iframe>
+            </div>
+
+         
+        </div>
+
+
+    </section>
